@@ -34,6 +34,18 @@ public interface RateLimit {
 
 接口比较简单，未提供太多功能，比如一些api的限流次数等信息，均需要使用者自己维护。
 
+### 依赖
+
+jar已发布到中仓仓库，直接依赖即可。
+
+```xml
+<dependency>
+    <groupId>tk.fishfish</groupId>
+    <artifactId>ratelimit-spring-boot-starter</artifactId>
+    <version>1.0.0.RELEASE</version>
+</dependency>
+```
+
 ### 使用
 
 下面是一个测试，使用时直接注入`RateLimit`即可。
