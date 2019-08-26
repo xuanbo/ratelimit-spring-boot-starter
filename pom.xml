@@ -6,7 +6,7 @@
 
     <groupId>tk.fishfish</groupId>
     <artifactId>ratelimit-spring-boot-starter</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1.RELEASE</version>
     <packaging>jar</packaging>
 
     <name>ratelimit-spring-boot-starter</name>
