@@ -23,6 +23,8 @@ end
 
 -- 超过限流次数，返回0
 if incrLimit > limit then
+    -- 防止超过limit
+    redis.call('decr', key)
     return "0"
 end
 
